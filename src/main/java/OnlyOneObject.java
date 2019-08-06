@@ -44,4 +44,12 @@ public class OnlyOneObject {
         return (this.getName() + " " + this.getLastName());
     }
 
+    public static void resetObject(OnlyOneObject onlyOneObject){
+        onlyOneObject = null;
+        resetX();
+    }
+
+    private static void resetX() {
+        OnlyOneObject.x = 0;
+    }
 }

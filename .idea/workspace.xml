@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc6ae59-7d70-4007-8ab6-88b9d895b4fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/King.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnlyOneObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlyOneObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OnlyOneObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OnlyOneObjectTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +31,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OnlyOneObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="408">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
               <folding>
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
                 <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/OnlyOneObjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -208,16 +212,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlyOneObjectTest.checkForGetKingLastname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TaskMGM" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OnlyOneObjectTest" />
-      <option name="METHOD_NAME" value="checkForGetKingLastname" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OnlyOneObjectTest.checkForGetKingName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TaskMGM" />
       <option name="PACKAGE_NAME" value="" />
@@ -248,13 +242,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OnlyOneObjectTest.createTwoKingObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskMGM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OnlyOneObjectTest" />
+      <option name="METHOD_NAME" value="createTwoKingObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OnlyOneObjectTest" />
+        <item itemvalue="JUnit.OnlyOneObjectTest.createTwoKingObject" />
         <item itemvalue="JUnit.OnlyOneObjectTest.checkForGetKingName" />
         <item itemvalue="JUnit.OnlyOneObjectTest.checkSetKingLastName" />
         <item itemvalue="JUnit.OnlyOneObjectTest.checkSetKingName" />
-        <item itemvalue="JUnit.OnlyOneObjectTest.checkForGetKingLastname" />
       </list>
     </recent_temporary>
   </component>
@@ -272,34 +276,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OnlyOneObjectTest_createOneKingObject - 2019.08.06 at 13h 33m 16s.xml">
-      <configuration name="OnlyOneObjectTest.createOneKingObject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest_createTwoKingObject - 2019.08.06 at 13h 34m 21s.xml">
-      <configuration name="OnlyOneObjectTest.createTwoKingObject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest_getKingLastname - 2019.08.06 at 13h 36m 16s.xml">
-      <configuration name="OnlyOneObjectTest.getKingLastname" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest_getKingName - 2019.08.06 at 13h 36m 18s.xml">
-      <configuration name="OnlyOneObjectTest.getKingName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 13h 39m 33s.xml">
-      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest_checkForGetKingLastname - 2019.08.06 at 13h 40m 12s.xml">
-      <configuration name="OnlyOneObjectTest.checkForGetKingLastname" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest_checkSetKingName - 2019.08.06 at 13h 40m 19s.xml">
-      <configuration name="OnlyOneObjectTest.checkSetKingName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest_checkSetKingLastName - 2019.08.06 at 13h 40m 22s.xml">
-      <configuration name="OnlyOneObjectTest.checkSetKingLastName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OnlyOneObjectTest_checkForGetKingName - 2019.08.06 at 13h 40m 27s.xml">
+    <history-entry file="OnlyOneObjectTest_checkForGetKingName - 2019.08.06 at 14h 16m 21s.xml">
       <configuration name="OnlyOneObjectTest.checkForGetKingName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 13h 40m 31s.xml">
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 14h 17m 15s.xml">
+      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 14h 17m 40s.xml">
+      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 14h 57m 04s.xml">
+      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 15h 01m 05s.xml">
+      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 15h 01m 48s.xml">
+      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest_createTwoKingObject - 2019.08.06 at 15h 06m 58s.xml">
+      <configuration name="OnlyOneObjectTest.createTwoKingObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 15h 07m 03s.xml">
+      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 15h 13m 34s.xml">
+      <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OnlyOneObjectTest - 2019.08.06 at 15h 14m 54s.xml">
       <configuration name="OnlyOneObjectTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -344,46 +348,16 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/OnlyOneObjectTest.java</url>
-          <line>5</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OnlyOneObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#1000#1001#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -395,10 +369,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OnlyOneObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OnlyOneObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
