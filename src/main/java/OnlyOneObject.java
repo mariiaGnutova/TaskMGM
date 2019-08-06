@@ -10,7 +10,7 @@ public class OnlyOneObject {
         this.count = 1;
     }
 
-    public static OnlyOneObject createPresidentObject(String name, String lastName) {
+    public static OnlyOneObject createKingObject(String name, String lastName) {
         if (x != 1) {
             OnlyOneObject king = new OnlyOneObject(name, lastName);
             x = king.getCount();

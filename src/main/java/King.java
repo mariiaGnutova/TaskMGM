@@ -1,10 +1,10 @@
 public class King {
 
     public static void main(String[] args) {
-        OnlyOneObject king = OnlyOneObject.createPresidentObject("King", "Arthur");
+        OnlyOneObject king = OnlyOneObject.createKingObject("King", "Arthur");
         System.out.println(king.toString());
 
-        OnlyOneObject secondKing = OnlyOneObject.createPresidentObject("Second", "Second Lastname");
+        OnlyOneObject secondKing = OnlyOneObject.createKingObject("Second", "Second Lastname");
         try {
             System.out.println(secondKing.toString());
         } catch (NullPointerException e) {
