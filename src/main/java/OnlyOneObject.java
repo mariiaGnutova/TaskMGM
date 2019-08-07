@@ -45,8 +45,9 @@ public class OnlyOneObject {
     }
 
     public static void resetObject(OnlyOneObject onlyOneObject){
-        onlyOneObject = null;
-        resetX();
+        if (onlyOneObject != null){
+            onlyOneObject = null;
+        resetX();}
     }
 
     private static void resetX() {
